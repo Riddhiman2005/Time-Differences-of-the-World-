@@ -1,1 +1,0 @@
-# Afterglow-of-Gamma-Ray-Outburst

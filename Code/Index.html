@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌎 Earth 🌎</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body onload="god()">
+    <div id="contain">
+        <h1 id="title">Time Zones</h1>
+        <h2 id="degs">Degrees: </h2>
+        <div style="display:flex;margin-top: -25px;margin-bottom: -25px;">
+            <h2>Direction: </h2><h2 id="ver"></h2><h2 id="mid"></h2><h2 id="hor"></h2><h2 id="org"></h2>
+        </div>
+        <h2 id="tc">Time Difference: </h2>
+        <input type="range" id="spinnerX" min="-7" max="82" value="35" style="position: absolute"> 
+        <input type="range" id="spinnerY" min="0" max="102" value="50" style="transform:rotate(90deg);top:50%;">
+        <div id="earth">
+            <div id="latlong" style="position: relative;">
+                <div id="change" style="background:gold;border: 2px solid gold;transform: rotate(90deg);margin-top: 50%;"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
